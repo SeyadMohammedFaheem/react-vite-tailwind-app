@@ -9,7 +9,7 @@ import BlogSection from './components/BlogSection'; // ✅ Import BlogSection
 
 function App() {
   return (
-    <div className="bg-[#FAF8F1] p-[30px]">
+    <div className="bg-[#FCFAF8] p-[30px]">
       <Header />
       <Hero />
       <SelectedProjects />

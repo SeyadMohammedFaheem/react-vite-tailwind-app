@@ -1,43 +1,27 @@
 @import "tailwindcss";
-@import './fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
 
 
 html,
 body {
   @apply bg-[#FAF8F1] text-[#111111] min-h-screen;
+  
+    
+
+}
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
-@font-face {
-  font-family: 'Denton Test';
-  src: url('./assets/fonts/DentonTest-Light.otf') format('opentype');
-  font-weight: 300;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'Denton Test';
-  src: url('./assets/fonts/DentonTest-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Denton Test';
-  src: url('./assets/fonts/DentonTest-Medium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Denton Test';
-  src: url('./assets/fonts/DentonTest-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Denton Test';
-  src: url('./assets/fonts/DentonTest-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
