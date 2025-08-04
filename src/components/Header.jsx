@@ -6,9 +6,9 @@ const Header = () => {
       {/* Logo */}
       <div className="flex items-center">
         <img
-          src="/logo.svg" // Replace with your actual logo path
+          src="/assets/faheemlogo.svg" // Replace with your actual logo path
           alt="Logo"
-          className="h-6 w-auto"
+          className="h-4 w-auto"
         />
       </div>
 
