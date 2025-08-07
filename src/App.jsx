@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header';
-import Hero from './components/Hero'; // ✅ Import Hero
+import Hero from './components/Hero';
 import SelectedProjects from './components/SelectedProjects';
-import IntroSection from './components/IntroSection'; // ✅ Import IntroSection
-import PlaygroundSection from './components/PlaygroundSection'; // ✅ Import PlaygroundSection
-import BlogSection from './components/BlogSection'; // ✅ Import BlogSection
+import IntroSection from './components/IntroSection';
+import PlaygroundSection from './components/PlaygroundSection';
+import BlogSection from './components/BlogSection';
 import Loader from "./components/Loader";
+import Footer from "./components/Footer"; // ✅ Import Footer
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <IntroSection />
       <PlaygroundSection />
       <BlogSection />
+      <Footer /> {/* ✅ Footer added here */}
     </div>
   );
 }
