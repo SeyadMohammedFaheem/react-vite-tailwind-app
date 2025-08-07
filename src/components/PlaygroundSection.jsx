@@ -23,9 +23,9 @@ const PlaygroundSection = () => {
   ];
 
   return (
-    <section className="relative px-6 py-32 overflow-hidden bg-[#FAF8F1]">
+    <section className="relative  py-32 overflow-hidden ">
       {/* Background "Playground" Text */}
-      <h2 className="absolute text-[100px] sm:text-[160px] md:text-[220px] text-[#11111110] font-serif z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none whitespace-nowrap">
+      <h2 className="absolute font-denton text-[80px] sm:text-[80px] md:text-[80px]  font-serif z-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none whitespace-nowrap">
         Playground
       </h2>
 

@@ -6,10 +6,21 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    'font-denton',
+    'font-thin',
+    'font-light', 
+    'font-normal',
+    'font-medium',
+    'font-bold',
+    'font-extrabold',
+    'font-black'
+  ],
   theme: {
     extend: {
       fontFamily: {
         playfair: ['"Playfair Display"', 'serif'],
+        denton: ['"Denton Test"', 'serif'],
       },
       keyframes: {
         fadeUp: {

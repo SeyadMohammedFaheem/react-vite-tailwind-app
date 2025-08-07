@@ -75,7 +75,7 @@ const Hero = () => {
 
       {/* Text */}
       <div className="flex justify-between items-end w-full  pt-6">
-        <p className="text-xl sm:text-xl md:text-[44px] font-regular leading-snug tracking-tight max-w-4xl">
+        <p className="text-xl font-denton sm:text-xl md:text-[44px]  leading-snug tracking-tight max-w-4xl">
           Multidisciplinary designer and developer helping teams and companies
           build meaningful products and create memorable digital experiences from
           concept to launch.

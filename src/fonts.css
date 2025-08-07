@@ -1,0 +1,61 @@
+/* Denton Test Font Family */
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20Thin%20100.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20Light%20300.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20Regular%20400.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20Medium%20500.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20Bold%20700.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20ExtraBold%20800.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Denton Test';
+  src: url('/assets/fonts/Denton%20Test%20Black%20900.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Test class to verify font loading */
+.font-denton {
+  font-family: 'Denton Test', serif;
+}

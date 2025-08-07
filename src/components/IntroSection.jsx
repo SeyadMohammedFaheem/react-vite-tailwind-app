@@ -2,7 +2,7 @@ export default function IntroSection() {
   return (
     <section className=" py-16">
       <div className="max-w-4xl ml-auto text-left">
-        <p className="text-2xl md:text-4xl leading-relaxed md:leading-snug font-serif text-[#111]">
+        <p className="text-2xl font-denton md:text-4xl leading-relaxed md:leading-snug font-serif text-[#111]">
           I approach all things design with a distinct blend of 🧩 play and minimalism, seamlessly 🕹 navigating design challenges and delivering ✨ functional + delightful solutions.
         </p>
 
