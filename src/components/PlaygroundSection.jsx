@@ -3,22 +3,22 @@ const PlaygroundSection = () => {
     {
       title: 'MOOVE',
       tags: ['Branding', 'Print', 'Signage', 'Web'],
-      image: '/gift-suggestion.png',
+      image: "/assets/icon.png",
     },
     {
       title: 'ELIXIR EMPORIUM',
       tags: ['Branding', 'Print', 'Signage'],
-      image: '/octalume.png',
+      image: "/assets/project2.png",
     },
     {
       title: 'VA CONFIDENTIAL',
       tags: ['Branding', 'Print'],
-      image: '/perfume.png',
+      image: "/assets/interaction.png",
     },
     {
       title: 'KM ANALYTICS',
       tags: ['Branding', 'Print', 'Web', 'Social Media'],
-      image: '/real-estate.png',
+      image: "/assets/projectpng",
     },
   ];
 
@@ -34,14 +34,15 @@ const PlaygroundSection = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-lg p-5 max-w-[480px] mx-auto transition-transform duration-300"
+            className="bg-white rounded-xl shadow-lg p-5 max-w-[480px] mx-auto flex flex-col transition-transform duration-300"
           >
             <img
               src={project.image}
               alt={project.title}
               className="rounded-lg w-full object-cover h-[260px]"
             />
-            <h3 className="mt-4 font-semibold text-xl text-black">
+            <div className="flex flex-row">          
+                <h3 className="mt-4 font-semibold text-xl text-black">
               {project.title}
             </h3>
             <div className="mt-3 flex flex-wrap gap-2">
@@ -53,6 +54,7 @@ const PlaygroundSection = () => {
                   {tag}
                 </span>
               ))}
+            </div>
             </div>
           </div>
         ))}
